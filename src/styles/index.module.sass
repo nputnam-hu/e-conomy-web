@@ -1,0 +1,99 @@
+@import 'vars'
+
+.index
+    display: flex
+    flex-direction: column
+
+.index__logo
+    margin: 85px auto 32px
+
+.index__header
+    margin: 5px auto
+    font-weight: 300
+    font-family: $primaryFont
+    color: $blackFontColor
+    font-size: 28px
+
+.index__subheader
+    margin: 10px auto
+    font-weight: 300
+    font-family: $primaryFont
+    color: $greyFontColor
+    font-size: 20px
+
+.latestIssue
+    margin: 130px auto
+    display: flex
+    flex-direction: row
+    width: 825px
+    a
+        box-shadow: none
+
+.latestIssue__text
+    margin: auto
+    margin-left: 0
+    text-align: center
+    h3
+        font-family: $primaryFont
+        color: $blackFontColor
+        font-size: 30px
+    h1
+        font-family: $headerFont
+        color: $blackFontColor
+        font-size: 80px
+        margin-top: 10px
+
+.latestIssue__cover
+    margin: 0
+    margin-left: auto
+
+.latestIssue__cover:hover
+    box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.25)
+    transition: box-shadow 2s ease-in-out
+    // -webkit-transition: width 1s ease-in-out
+    // -moz-transition: width 1s ease-in-out
+    // -o-transition: width 1s ease-in-out
+    // transition: width 1s ease-in-out
+
+    animation: createBox 2s forwards
+
+@keyframes createBox
+    from
+        transform: scale(1)
+    to
+        transform: scale(1.05)
+
+.linebreak
+    width: 90%
+    margin: 0 auto
+
+.archive
+    display: flex
+    flex-direction: column
+
+.archive__header
+    margin: 40px auto 0
+    font-family: $headerFont
+    color: $blackFontColor
+    font-size: 36px
+
+.archive__issues
+    margin: 50px auto 0
+
+.issue
+    display: flex
+    flex-direction: column
+    align-items: center
+
+.issue__cover:hover
+    box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.25)
+    transition: box-shadow 0.2s ease-in-out
+
+.issue__title
+    color: $blackFontColor
+    font-family: $headerFont
+    margin: 20px 0 2px
+
+.issue__issueNumber
+    color: $blackFontColor
+    font-family: $primaryFont
