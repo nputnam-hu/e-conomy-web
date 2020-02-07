@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import Img from 'gatsby-image'
+import classNames from 'classnames'
 
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
@@ -13,10 +14,30 @@ const BlogIndex = ({ data, location }) => {
         <Layout location={location} title={siteTitle}>
             <SEO title="Identity | Issue One of E-conomy" />
             <div className={styles.issue1}>
-                <Img
-                    fixed={data.cover.childImageSharp.fixed}
-                    className={styles.issue1__cover}
-                />
+                <div className={styles.issue1__top}>
+                    <Img
+                        fixed={data.cover.childImageSharp.fixed}
+                        className={styles.issue1__cover}
+                    />
+                    <div className={styles.articleLinks}>
+                        <div className={styles.articleLinks__row}>
+                            <Link to="/comingsoon">
+                                <h2 className={classNames(styles.articleLinks__link, styles.left, styles.top)}>* Who am I — A Digital Guide</h2>
+                            </Link>
+                            <Link to="/comingsoon">
+                                <h2 className={classNames(styles.articleLinks__link, styles.right, styles.top)}>* The Psychic Return of Entrepreneurship</h2>
+                            </Link>
+                        </div>
+                        <div className={styles.articleLinks__row}>
+                            <Link to="/comingsoon">
+                                <h2 className={classNames(styles.articleLinks__link, styles.left, styles.bottom)}>* databased</h2>
+                            </Link>
+                            <Link to="/comingsoon">
+                                <h2 className={classNames(styles.articleLinks__link, styles.right, styles.bottom)}>* Visa’s Killer Acquisition</h2>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
                 <hr className={styles.linebreak} />
                 <div className={styles.otherIssues}>
                     <h2 className={styles.otherIssues__header}>Other Issues</h2>
@@ -34,7 +55,7 @@ const BlogIndex = ({ data, location }) => {
                     </div>
                 </div>
             </div>
-        </Layout>
+        </Layout >
     )
 }
 
@@ -42,24 +63,24 @@ export default BlogIndex
 
 export const pageQuery = graphql`
   query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    cover: file(relativePath: { eq: "issue1.png" }) {
-      childImageSharp {
-        fixed(width: 600, height: 776) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    issue1__small: file(relativePath: { eq: "issue1.png" }) {
-        childImageSharp {
-          fixed(width: 200, height: 258) {
-            ...GatsbyImageSharpFixed
+                site {
+                siteMetadata {
+                title
+            }
+            }
+    cover: file(relativePath: {eq: "issue1.png" }) {
+                childImageSharp {
+                fixed(width: 600, height: 776) {
+                ...GatsbyImageSharpFixed
+            }
+            }
           }
-        }
+    issue1__small: file(relativePath: {eq: "issue1.png" }) {
+                childImageSharp {
+                fixed(width: 200, height: 258) {
+                ...GatsbyImageSharpFixed
+            }
+            }
+          }
       }
-  }
-`
+    `

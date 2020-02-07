@@ -5,7 +5,7 @@ import Img from 'gatsby-image'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styles from '../styles/index.module.sass'
-// import MailchimpButton from "../components/MailchimpButton"
+import EmailSignupButton from "../components/EmailSignupButton"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -20,7 +20,7 @@ const BlogIndex = ({ data, location }) => {
         />
         <h2 className={styles.index__header}>A zine on cyberspace and cyber problems.</h2>
         <h2 className={styles.index__subheader}> Subscribe to be emailed our monthly issue:</h2>
-        {/* <MailchimpButton /> */}
+        <EmailSignupButton />
         <div className={styles.latestIssue}>
           <div className={styles.latestIssue__text}>
             <h3>Latest Issue</h3>
