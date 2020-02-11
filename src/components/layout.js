@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import Navbar from './Navbar'
 import '../styles/global.sass'
 
 const Layout = ({ location, title, children }) => {
@@ -20,7 +20,7 @@ const Layout = ({ location, title, children }) => {
   )
   return (
     <div>
-      <nav>{header}</nav>
+      {/* <Navbar /> */}
       <main>{children}</main>
       <footer>
       </footer>
