@@ -20,7 +20,7 @@ const Layout = ({ location, title, children }) => {
   )
   return (
     <div>
-      <nav>{header}</nav>
+      {/* <Navbar /> */}
       <main>{children}</main>
       <footer></footer>
     </div>
