@@ -1,0 +1,72 @@
+@import 'vars'
+
+.crypto
+    margin-top: -20px
+    display: flex
+    flex-direction: row
+    padding-bottom: 50px
+    @media ($mobileBreak)
+        flex-direction: column
+
+.content
+    margin-top: 70px
+    margin-left: 80px
+    margin-right: 12%
+    display: flex
+    flex-direction: column
+    font-size: 20px
+    p
+        line-height: 160%
+        margin-top: 5px
+        // font-family: $blogFont
+        font-weight: 300
+        color: $blackFontColor
+    @media (max-width: 1300px)
+        margin-right: 4%
+        margin-left: 4%
+        padding-left: 30px
+    @media ($mobileBreak)
+        padding: 0
+        margin-top: 20px
+
+.content__header
+    font-family: $headerFont
+    font-size: 70px
+    line-height: 60px
+    font-weight: 600
+    color: $blackFontColor
+    margin: 0
+    margin-left: -9px
+    line-height: 100%
+    @media ($indexBreak)
+        margin: 0
+    @media ($mobileBreak)
+        font-size: 55px
+
+.content__subHeader
+    color: $blackFontColor
+    font-family: $primaryFont
+    font-size: 30px
+    margin: 2px auto 5px 2px
+    font-weight: 300
+    @media ($mobileBreak)
+        font-size: 25px
+
+.articleSection
+    font-size: 20px
+    h3
+        margin-top: 10px
+        color: $blackFontColor
+        font-weight: 300
+        text-decoration: underline
+    ul
+        li
+            color: $blackFontColor
+            margin-top: 10px
+
+.lineBreak
+    display: flex
+    font-size: 27px
+    padding: 0px 40% 10px
+    color: $blackFontColor
+    justify-content: space-around

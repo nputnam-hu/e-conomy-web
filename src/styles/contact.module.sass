@@ -1,0 +1,27 @@
+@import 'vars'
+
+.index
+    display: flex
+    flex-direction: row
+    margin-top: -20px
+    @media ($mobileBreak)
+        flex-direction: column
+
+.mainContent
+    display: flex
+    flex-direction: column
+    width: 45%
+    margin-right: auto
+    margin-top: 60px
+    margin-left: 85px
+    @media (max-width: 1200px)
+        width: 50%
+    @media ($mobileBreak)
+        width: inherit
+        margin: 10px 5% 0
+
+.mainContent__paragraph
+    font-size: 22px
+    color: $blackFontColor
+    font-weight: 300
+    margin-bottom: 0px

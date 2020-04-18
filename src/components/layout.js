@@ -1,5 +1,5 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import { Link } from 'gatsby'
 import '../styles/global.sass'
 
 const Layout = ({ location, title, children }) => {
@@ -22,8 +22,7 @@ const Layout = ({ location, title, children }) => {
     <div>
       <nav>{header}</nav>
       <main>{children}</main>
-      <footer>
-      </footer>
+      <footer></footer>
     </div>
   )
 }
