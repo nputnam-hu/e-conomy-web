@@ -108,7 +108,7 @@ const BlogPost = ({ data }) => {
             {post.frontmatter.ogImage && (
               <meta
                 property="og:image"
-                content={`${rootUrl}${post.frontmatter.featuredImage.childImageSharp.sizes.src}`}
+                content={`${rootUrl}${post.frontmatter.ogImage.childImageSharp.sizes.src}`}
               />
             )}
             <meta charset="utf-8" />
