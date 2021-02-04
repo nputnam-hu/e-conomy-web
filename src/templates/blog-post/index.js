@@ -101,7 +101,7 @@ const BlogPost = ({ data }) => {
         subtitle={post.frontmatter.subtitle}
         helmet={
           <Helmet titleTemplate="%s | E-conomy">
-            <title>{`${post.title}`}</title>
+            <title>{`${post.frontmatter.title}`}</title>
             <meta name="description" content={`${post.subtitle}`} />
             <meta property="og:title" content={post.title} />
             <meta property="og:url" content={`${rootUrl}${post.fields.slug}`} />

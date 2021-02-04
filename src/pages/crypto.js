@@ -14,20 +14,6 @@ const Crypto = ({ location, data }) => (
         <h2 className={styles.content__header}>The Internet of Value</h2>
         <h4 className={styles.content__subHeader}>Why Crypto Still Matters </h4>
         <br />
-        {/* <p>
-          It has been over a decade since the publication of the Bitcoin white
-          paper and the state of cryptocurrencies is still uncertain. While
-          Bitcoin and other coins have appreciated signficantly in value, the
-          majority of that
-        </p> */}
-        {/* Cryptocurrencies enable money to be native to the internet. Forget{' '}
-          <a href="https://bananacoin.io/">bannacoin</a>. Forget{' '}
-          <a href="https://www.pcmag.com/news/kodak-says-hold-my-beer-with-odd-cryptocurrency-bid">
-            KodakCoin
-          </a>
-          . Forget <a href="https://dogecoin.com/">dogecoin</a> (please...).
-          Internet native money is the killer app for crypto; it's the "there
-          there".  */}
         <blockquote>
           The Internet is a tidal wave. It changes the rules.
           <br />
@@ -46,8 +32,8 @@ const Crypto = ({ location, data }) => (
           entertainment. It has never been easier to watch compelling tv shows,
           send funny memes to friends, or play immersive multiplayer games. But
           the web‘s potential is far greater than just providing better and
-          better ways to escape reality — we can take the massive processing
-          power and ubiquity of the web and focus it on making reality less
+          better ways to escape reality. We can take the massive processing
+          power and ubiquity of the web and focus it on making the real world less
           stressful. And there is no bigger source of stress for people today
           than money.
         </p>

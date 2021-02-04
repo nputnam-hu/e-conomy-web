@@ -18,7 +18,7 @@ const BlogIndex = ({ data, location }) => {
         <div className={styles.mainContent}>
           <h1>Essays on cyber space and cyber problems</h1>
           <p className={styles.mainContent__paragraph}>
-            E-conomy is an exploration of the future of the internet.
+            E-conomy is an exploration of the future of the internet and the hackers, designers, and entrepreneurs building it.
           </p>
           <div style={{ height: 15 }} />
           <div className={styles.articleSection}>
