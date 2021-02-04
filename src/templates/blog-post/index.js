@@ -39,8 +39,6 @@ export class BlogPostTemplate extends Component {
       title,
       publishDate,
     } = this.props
-    const author = { name: 'Noah Putnam', headshot: '', bio: 'Blabla' }
-    const { name, headshot, bio } = author
     const PostContent = contentComponent || Content
     const formattedPublishDate = moment(publishDate).format('MMMM Do YYYY')
 
