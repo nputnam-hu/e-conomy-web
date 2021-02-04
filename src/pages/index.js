@@ -16,21 +16,16 @@ const BlogIndex = ({ data, location }) => {
       <div className={styles.index}>
         <Sidebar />
         <div className={styles.mainContent}>
-          <h1>Essays on cyber-space and cyber-problems</h1>
+          <h1>Essays on cyber space and cyber problems</h1>
           <p className={styles.mainContent__paragraph}>
-            E-conomy is the personal website of{' '}
-            <a href="htttps://twitter.com/noah_putnam">Noah Putnam</a>. I
-            believe that the internet will totally change how we interact with
-            money and commerce <em>writ large</em>. E-conomy is an exploration
-            of what that future could be — and how creators, designers, and
-            hackers can help build it.
+            E-conomy is an exploration of the future of the internet.
           </p>
           <div style={{ height: 15 }} />
           <div className={styles.articleSection}>
             <h3>Latest</h3>
             <ul>
               <li>
-                <Link to="/why-I-left-substack">Why I Left Substack</Link>
+                <Link to="/3-reads-marc-andreessens-original-sin">3 Reads: Marc Andreessen’s Original Sin</Link>
               </li>
             </ul>
           </div>

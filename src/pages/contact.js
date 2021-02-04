@@ -17,6 +17,11 @@ const BlogIndex = ({ data, location }) => {
         <div className={styles.mainContent}>
           <h1>Contact Me</h1>
           <p className={styles.mainContent__paragraph}>
+            E-conomy is the personal website of me,{' '}
+            <a href="htttps://twitter.com/noah_putnam">Noah Putnam</a>.
+
+          </p>
+          <p className={styles.mainContent__paragraph}>
             One of the primary reasons I publish my ideas online is so that I
             can meet interesting people who have their own ideas. Feel free to
             DM me on{' '}
@@ -27,15 +32,9 @@ const BlogIndex = ({ data, location }) => {
             >
               twitter
             </a>
-            , or email me at noahputnam [at] gmail [dot] com, with comments on
+            , or email me at noahputnam [at] gmail [dоt] com, with comments on
             my writing, questions or criticisms, or writing/ideas of your own. I
             always enjoy getting messages, and almost always reply.
-          </p>
-          <p className={styles.mainContent__paragraph}>
-            In addition, and am pretty much always down to get coffee with
-            someone interested in crypto, the creator economy, or really
-            anything tech related. I live in New York City (Lower East Side) and
-            travel around the US fairly often.
           </p>
         </div>
       </div>
