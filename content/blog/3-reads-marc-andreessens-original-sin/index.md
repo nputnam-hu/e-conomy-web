@@ -1,5 +1,5 @@
 ---
-title: '3 Reads: Marc Andreessen’s Original Sin'
+title: 'Three Reads: Marc Andreessen’s Original Sin'
 date: '2020-01-12T22:12:03.284Z'
 subtitle: 'Three reads to deepen your understanding of native internet money'
 ---

@@ -3,7 +3,7 @@ module.exports = {
     title: `E-conomy: a publication on crypto, creators, and the future`,
     author: `Noah Putnam`,
     description: `An exploration of the intersection of money and technology for creators, designers, and hackers`,
-    siteUrl: `https://e-conomy.nyc/`,
+    siteUrl: `https://e-conomy.la/`,
     social: {
       twitter: `noah_putnam`,
     },

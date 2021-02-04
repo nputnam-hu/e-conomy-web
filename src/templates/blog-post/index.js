@@ -7,6 +7,7 @@ import Layout from '../../components/layout'
 import Time from '../../components/Time'
 import ReducedSidebar from './ReducedSidebar'
 import styles from './styles.module.sass'
+import moment from 'moment'
 
 export class BlogPostTemplate extends Component {
   state = {
@@ -41,6 +42,7 @@ export class BlogPostTemplate extends Component {
     const author = { name: 'Noah Putnam', headshot: '', bio: 'Blabla' }
     const { name, headshot, bio } = author
     const PostContent = contentComponent || Content
+    const formattedPublishDate = moment(publishDate).format('MMMM Do YYYY')
 
     return (
       <>
@@ -58,29 +60,8 @@ export class BlogPostTemplate extends Component {
             />
             {/* Tags Section */}
             {/* Article Footer */}
-            <div className={styles.Article__footer}>
-              <Link style={{ textDecoration: 'none' }} to={author.slug}>
-                <div className={styles.AuthorPage__header}>
-                  <div className={styles.AuthorPage__header__imageContainer}>
-                    {/* <Img
-                  className={styles.AuthorPage__header__image}
-                  alt={name}
-                  fixed={headshot.childImageSharp.large}
-                /> */}
-                  </div>
-                  {/* <div className={styles.AuthorPage__header__text}>
-                    <div className={styles.AuthorPage__header__text__name}>
-                      {name}
-                    </div>
-                    <div className={styles.AuthorPage__header__text__bio}>
-                      {bio}
-                    </div>
-                  </div> */}
-                </div>
-              </Link>
-            </div>
             <hr />
-            {/* {morePosts && morePosts.length > 0 && <MorePosts posts={morePosts} />} */}
+            <p className={styles.publishDate}>This article was published {formattedPublishDate}</p>
           </div>
         </section>
       </>
@@ -92,7 +73,7 @@ const BlogPost = ({ data }) => {
   const morePosts = data.allBlogPost
     ? data.allBlogPost.edges.map(p => p.node)
     : []
-  const rootUrl = 'https://e-conomy.nyc'
+  const rootUrl = 'https://e-conomy.la'
   return (
     <Layout>
       <BlogPostTemplate
