@@ -81,9 +81,9 @@ const Crypto = ({ location, data }) => (
         <p>
           While crypto is still in its early days, I am excited to learn and
           document its progress. Most notably, I have explored what exactly{' '}
-          <Link to="/about">internet-native money</Link> means,{' '}
-          <Link to="/about">the microeconomics </Link>of decentralized
-          protocols, and <Link to="/about">the tension </Link>between the crypto
+          <Link to="/marc-andreessens-original-sin">internet-native money</Link> means,{' '}
+          <Link to="/3-reads-marc-andreessens-original-sin">the microeconomics </Link>of decentralized
+          protocols, and <Link to="/3-reads-marc-andreessens-original-sin">the tension </Link>between the crypto
           and fintech ecosystems. See below for a full archive of my posts about
           crypto.
         </p>

@@ -32,7 +32,7 @@ As I am fond of reminding people, the internet dramatically lowers economic fric
 
 Over the last twenty years, we’ve gone from print newspaper delivered by truck to Twitter and Facebook aggregating all the world’s news. From linear television to YouTube. From magazines to Instagram. But these transformations were not inevitable — they were contingent on the types of information that were built into the open protocols that define the web:
 
-![](./progression.jpg)
+![](./progression.jpeg)
 
 Money, however, was not built into those protocols. As a result, within financial services, transaction costs and barriers to entry remained high, while innovation and creativity remained low. And this is deeper than just payments. Banking, loaning, investing — everything related to moving money around would have become more accessible to businesses and consumers alike. In the absence of native commerce, internet companies gravitated towards the information-based business model that was accessible to them: advertising. Or as Andreessen puts it,
 

@@ -68,14 +68,14 @@ export class BlogPostTemplate extends Component {
                   fixed={headshot.childImageSharp.large}
                 /> */}
                   </div>
-                  <div className={styles.AuthorPage__header__text}>
+                  {/* <div className={styles.AuthorPage__header__text}>
                     <div className={styles.AuthorPage__header__text__name}>
                       {name}
                     </div>
                     <div className={styles.AuthorPage__header__text__bio}>
                       {bio}
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </Link>
             </div>
