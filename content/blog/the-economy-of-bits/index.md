@@ -25,6 +25,6 @@ At the same time, the removal of friction has led to the collapse of many busine
 
 As you can see, just as in our planet scenario, the removal of preexisting friction has both ruinous consequences and profound opportunities. We as a society are currently in the midst of reckoning with both sides of that coin. What new things can we invent? What new experiences can we enable? And how can we fix what’s been broken? These questions are why this blog exists.
 
-Fundamentally, I am an optimist about this new economy. I think that it has the potential to change the world for the better, to enable new creativity and jobs at a scale impossible in the world of atoms. However, I don’t think that this is guaranteed. The future doesn’t just happen to us: we invent it. These essays is my small contribution to that collective invention, an attempt to understand the present and think about out how we can improve what lies ahead.
+Fundamentally, I am an optimist about this new economy. I think that it has the potential to change the world for the better, to enable new creativity and jobs at a scale impossible in the world of atoms. However, I don’t think that this is guaranteed. The future doesn’t just happen to us: we invent it. These essays are a small contribution to that collective invention, an attempt to understand the present and think about out how we can improve what lies ahead.
 
 I hope you’ll join me.
