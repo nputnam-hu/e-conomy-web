@@ -22,14 +22,6 @@ const BlogIndex = ({ data, location }) => {
           </p>
           <div style={{ height: 15 }} />
           <div className={styles.articleSection}>
-            <h3>Latest</h3>
-            <ul>
-              <li>
-                <Link to="/3-reads-marc-andreessens-original-sin">3 Reads: Marc Andreessen’s Original Sin</Link>
-              </li>
-            </ul>
-          </div>
-          <div className={styles.articleSection}>
             <h3>Notable</h3>
             <ul>
               <li>
@@ -44,6 +36,14 @@ const BlogIndex = ({ data, location }) => {
               </li>
               <li>
                 <Link to="/the-economy-of-bits">The Economy of Bits</Link>
+              </li>
+            </ul>
+          </div>
+          <div className={styles.articleSection}>
+            <h3>Decks</h3>
+            <ul>
+              <li>
+                <Link to="/OwnershipCulture.pdf">[April 2021] Ownership Culture</Link>
               </li>
             </ul>
           </div>
