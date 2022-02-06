@@ -23,8 +23,7 @@ const BlogIndex = ({ data, location }) => {
           </p>
           <p className={styles.mainContent__paragraph}>
             One of the primary reasons I publish my ideas online is so that I
-            can meet interesting people who have their own ideas. Feel free to
-            DM me on{' '}
+            can meet interesting people who have their own ideas. My DMs are open on{' '}
             <a
               href="https://twitter.com/noah_putnam"
               target="_blank"
@@ -32,8 +31,8 @@ const BlogIndex = ({ data, location }) => {
             >
               twitter
             </a>
-            , or email me at noahputnam [at] gmail [dоt] com, with comments on
-            my writing, questions or criticisms, or writing/ideas of your own. I
+            . Feel free to reach out with questions or criticisms of
+            my writing, or writing/ideas of your own. I
             always enjoy getting messages, and almost always reply.
           </p>
         </div>
