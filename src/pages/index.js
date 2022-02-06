@@ -43,7 +43,7 @@ const BlogIndex = ({ data, location }) => {
             <h3>Decks</h3>
             <ul>
               <li>
-                <Link to="/OwnershipCulture.pdf">[April 2021] Ownership Culture</Link>
+                <a href="https://e-conomy.la/OwnershipCulture.pdf" target="_blank">[April 2021] Ownership Culture</a>
               </li>
             </ul>
           </div>
