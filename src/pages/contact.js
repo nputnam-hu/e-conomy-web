@@ -17,9 +17,7 @@ const BlogIndex = ({ data, location }) => {
         <div className={styles.mainContent}>
           <h1>Contact Me</h1>
           <p className={styles.mainContent__paragraph}>
-            E-conomy is the personal website of me,{' '}
-            <a href="htttps://twitter.com/noah_putnam">Noah Putnam</a>.
-
+            E-conomy is the personal website of me, Noah Putnam
           </p>
           <p className={styles.mainContent__paragraph}>
             One of the primary reasons I publish my ideas online is so that I
