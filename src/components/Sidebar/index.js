@@ -44,7 +44,7 @@ const Sidebar = () => (
           <div className={styles.sidebar__links}>
             <Link to="/crypto">Crypto</Link>
             <br />
-            <SubscribeModal />
+             <a href="https://economyofbits.substack.com" target="_blank">Subscribe</a>
             <br />
             <Link to="/contact">Contact</Link>
           </div>
