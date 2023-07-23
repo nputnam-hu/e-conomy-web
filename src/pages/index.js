@@ -18,7 +18,8 @@ const BlogIndex = ({ data, location }) => {
         <div className={styles.mainContent}>
           <h1>Essays on cyber space and cyber problems</h1>
           <p className={styles.mainContent__paragraph}>
-            E-conomy is an exploration of the future of the internet and the hackers, designers, and entrepreneurs building it.
+            E-conomy is an exploration of the future of the internet and the
+            hackers, designers, and entrepreneurs building it.
           </p>
           <div style={{ height: 15 }} />
           <div className={styles.articleSection}>
@@ -43,7 +44,12 @@ const BlogIndex = ({ data, location }) => {
             <h3>Decks</h3>
             <ul>
               <li>
-                <a href="https://e-conomy.la/OwnershipCulture.pdf" target="_blank">[April 2021] Ownership Culture</a>
+                <a
+                  href="https://e-conomy.la/OwnershipCulture.pdf"
+                  target="_blank"
+                >
+                  [July 2023] Ownership Culture
+                </a>
               </li>
             </ul>
           </div>
